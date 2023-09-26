@@ -184,6 +184,45 @@ section .title {
   margin-left: 0;
   margin-bottom: 10px;
 }
+.about .about-content .right p {
+  text-align: justify;
+}
+
+/* Skills Part ------------------------- */
+.skills {
+  background: radial-gradient(#e1efff, white);
+}
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+}
+
+.skills .skills-content .right img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  margin-right: auto;
+}
+
+.job,
+.project {
+  list-style: none;
+}
+.job::before,
+.project::before {
+  content: "🦖 ";
+  color: #1e3551;
+}
+
+/* Project Part */
 
 
 
