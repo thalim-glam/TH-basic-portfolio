@@ -223,9 +223,81 @@ section .title {
 }
 
 /* Project Part */
+.projects {
+  background: radial-gradient(#e1efff, white);
+}
+.projects .p_content{
+  display:inline-flex;
 
+}
+.projects .p_content .card {
+  width: calc(33% - 10px);
+  background: #47ed056c;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+.projects .p_content .card:hover {
+  background: #f59d068f;
+  width: fit-content;
+}
 
+.projects .p_content .card .box {
+  transition: all 0.3s ease;
+}
+.projects .p_content .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .p_content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+/* Contact Me ------------------------------------------------ */
+
+.contact {
+  background: radial-gradient(white ,#e1efff);
+}
+.contact .c_content .column {
+  width: calc(50% - 2px);
+}
+
+.contact .c_content .left .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .c_content .left p {
+  text-align: justify;
+}
+
+.contact .c_content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+
+.contact .c_content .row .info {
+  margin-left: 40px;
+}
+.contact .c_content .info .headr {
+  font-weight: 600;
+  font-style: oblique;
+  font-display: block;
+  color: #000;
+}
+.contact .c_content .info .sub-title {
+  color: #333;
+}
+.headr::before {
+  content: " 🦕 ";
+  color: #1e3551;
+}
 
 /* Social Icons Part ------------------------------------------*/
 
@@ -276,5 +348,19 @@ section .title {
 }
 
 
+/* Footer Part ------------------ */
+footer {
+  background: #111;
+  padding: 6px 16px;
+  color: #888c8d;
+  text-align: center;
+}
+footer span a {
+  color: #ffea02;
+  text-decoration: none;
+}
 
+footer span a:hover {
+  text-decoration: underline;
+}
 
