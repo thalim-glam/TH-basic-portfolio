@@ -10,7 +10,7 @@ html{
   scroll-behavior: auto;
 }
 section{
-  padding: 100px 0;
+  padding: 30px 0;
 }
 .max-width{
   margin: auto;
@@ -42,7 +42,7 @@ section .title {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   padding-bottom: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -54,6 +54,7 @@ section .title {
   padding: 30px 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   transition: all 0.3s ease;
+  position: sticky;
 }
 
 .navbar .max-width {
@@ -80,7 +81,7 @@ section .title {
 
 .navbar .menu li a {
   display: block;
-  color: #4103fa;
+  color: #4117bd;
   font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
@@ -88,7 +89,9 @@ section .title {
 }
 
 .navbar .menu li a:hover {
-  color: #fafa00;
+  background-color: #7be76be6;
+  color: #6c00fa;
+  box-shadow: 0 0 10px #7be76be6;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -131,9 +134,9 @@ section .title {
   display: flex;
   background: url("https://source.unsplash.com/720x600/?dark,patern") no-repeat
     center;
-  height: 10vh;
+  height: 30vh;
   color:rgb(250, 250, 250);
-  min-height: 50px;
+  min-height: 150px;
   background-size: cover;
   background-attachment: fixed;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -166,16 +169,16 @@ section .title {
 }
 
 .about .about-content .left {
-  width: 45%;
+  width: 40%;
 }
 .about .about-content .left img {
   height: 300px;
   width: 300px;
-  object-fit: fill;
+  object-fit: contain;
   border-radius: 20px;
 }
 .about .about-content .right {
-  width: 55%;
+  width: 60%;
 }
 
 .about .about-content .right .text {
@@ -232,7 +235,7 @@ section .title {
 }
 .projects .p_content .card {
   width: calc(33% - 10px);
-  background: #47ed056c;
+  background: #adccf46c;
   text-align: center;
   border-radius: 10px;
   padding: 50px 50px;
@@ -242,29 +245,35 @@ section .title {
 
 .projects .p_content .card:hover {
   background: #f59d068f;
-  width: fit-content;
+  width: max-content;
 }
 
 .projects .p_content .card .box {
   transition: all 0.3s ease;
 }
 .projects .p_content .card:hover .box {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 .projects .p_content .card .text {
   font-size: 25px;
   font-weight: 500;
-  margin: 10px 0 7px 0;
+  margin: 5px 0 5px 0;
 }
 
+.projects .p_content .card img {
+  height: 300px;
+  width: 300px;
+  object-fit: fill;
+  border-radius: 20px;
+}
 /* Contact Me ------------------------------------------------ */
 
 .contact {
   background: radial-gradient(white ,#e1efff);
 }
-.contact .c_content .column {
-  width: calc(50% - 2px);
+.contact .c_content .left {
+  width: 50%;
 }
 
 .contact .c_content .left .text {
@@ -300,52 +309,79 @@ section .title {
 }
 
 /* Social Icons Part ------------------------------------------*/
-
 .social-menu ul {
   position: absolute;
-  left: 20%;
+  left: 60%;
   padding: 0;
   margin: 0;
   transform: translate(-50%, -50%);
   display: flex;
 }
+
+
 .social-menu ul li {
   list-style: none;
-  margin: 0 15px;
+  margin: 0 25px;
 }
-.social-menu ul li .fa{
-  padding: 20px;
+
+
+.social-menu ul li .fa {
   font-size: 30px;
-  width: 50px;
+  line-height: 60px;
+  transition: 0.6s;
+  color: #000000;
+}
+
+.social-menu ul li a {
+  left: 0px;
+  right: 12px;
+  padding-top: 3px;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #b0c6dc;
   text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-.fa:hover {
-    opacity: 0.7;
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #131418;
 }
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+
+
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #0a66c2;
 }
-.fa-instagram {
-  background: #125688;
-  color: white;
+
+
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
 }
-.fa-google {
-  background: #dd4b39;
-  color: white;
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #1da1f2;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #e33054;
 }
+
+.social-menu ul li:nth-child(6) a:hover {
+  background-color: #fc4f08;
+}
+
+.fa-brands {
+  color: #fff;
+}
+
 
 
 /* Footer Part ------------------ */
@@ -364,3 +400,9 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
