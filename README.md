@@ -26,7 +26,7 @@ All the installations where there as I already did it last week for Challenge #1
 Please go to this link to view my Potfolio-website : https://thalim-glam.github.io/TH-basic-portfolio/
 
 Here is a sample screenshot showing partial view og my project
-![Screenshot of my Personal portfolio](assets/images/Screenshot.jpg)
+![Screenshot of my Personal portfolio](images/Screenshot.jpg)
 
 ## Comand line code
 
