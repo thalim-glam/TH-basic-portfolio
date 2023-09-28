@@ -324,13 +324,14 @@ section .title {
   margin: 0 25px;
 }
 
-
+/*
 .social-menu ul li .fa {
   font-size: 30px;
   line-height: 60px;
   transition: 0.6s;
   color: #000000;
 }
+*/
 
 .social-menu ul li a {
   left: 0px;
