@@ -57,6 +57,10 @@ MIT Lisence
 ## Features
 
 In my code I had 1 main branch and crated a few featured branch to test my code and update.
+  - For html code please see index.html file
+  - For Desktop version please see style.css file
+  - For tablet version please see tablet.css file
+  - For mobile version please see mobile.css file
 
 ## How to Contribute
 
@@ -64,7 +68,12 @@ I followed this https://coding-boot-camp.github.io/full-stack/github/professiona
 
 ## Tests
 
-To test my code, please follow the index.html and style.css files.
+How to test the code? 
+  - Please go to inspect and see html and css files
+  - For html code please see index.html file
+  - For Desktop version please see style.css file
+  - For tablet version please see tablet.css file
+  - For mobile version please see mobile.css file
 Personally I used VSCode as an IDE to edit code.
 For browser, I tested in Google Chrome.
 To inspect my code, I used Google Chrome Development tool.

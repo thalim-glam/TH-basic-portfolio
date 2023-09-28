@@ -1,0 +1,39 @@
+.max-width{
+  margin: auto;
+  padding-block: 0;
+  max-width: 100%;
+}
+
+.about .about-content .right {
+  width: 50%;
+}
+.skills .skills-content .right img {
+  margin-top: -10px;
+  margin-left: -40px;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  
+}
+
+.projects .p_content{
+  display: block;
+  margin-left: 100px;
+}
+.projects .p_content .card {
+  width: calc(80% - 1px);
+  margin-bottom: 20px;
+  background: #adccf46c;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .p_content .card:hover {
+  background: #f59d068f;
+  width: calc(85% - 1px);
+}
+.contact {
+  background: radial-gradient(#e1efff, white);
+}
