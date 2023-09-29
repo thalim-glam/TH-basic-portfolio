@@ -391,7 +391,12 @@ footer span a:hover {
 
 /* Responsive Website -----------------------------------------------------------------------------------*/
 
-/*
-I have added an extra CSS file for tablet (max-width: 800px)
-Could not finish for lower pixel (iphone SE, iphone) yet. 
-*/
+@media screen and (max-width: 800px)
+{
+  .about-content, .skills-content{
+    flex-direction: column;
+  }
+  .skills .skills-content .right img {
+    display: none;
+  }
+}
