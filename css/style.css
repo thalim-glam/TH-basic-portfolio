@@ -317,7 +317,6 @@ section .title {
   display: flex;
 }
 
-
 .social-menu ul li {
   list-style: none;
   margin: 0 25px;
@@ -374,6 +373,7 @@ section .title {
 }
 
 /* Footer Part ------------------ */
+
 footer {
   background: #111;
   padding: 6px 16px;
@@ -389,7 +389,7 @@ footer span a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Website -----------------------------------------------------------------------------------*/
+/* Responsive Website Part ---------------------------------------*/
 
 @media screen and (max-width: 800px)
 {
