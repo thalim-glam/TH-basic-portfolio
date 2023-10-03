@@ -16,6 +16,27 @@
   
 }
 
+.projects .card1 {
+  width: calc(80% - 1px);
+  margin-bottom: 20px;
+  background: #adccf46c;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .card1:hover {
+  background: #f59d068f;
+  width: calc(85% - 1px);
+}
+.projects .card1 img {
+  height: 200px;
+  width: 300px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
 .projects .p_content{
   display: block;
   margin-left: 100px;

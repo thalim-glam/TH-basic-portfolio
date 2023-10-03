@@ -228,6 +228,37 @@ section .title {
 .projects {
   background: radial-gradient(#e1efff, white);
 }
+.projects .card1 {
+  width: 93%;
+  background: #e1efff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .card1:hover {
+  background: #f59d068f;
+}
+.projects .card1 img {
+  height: 300px;
+  width: 600px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+.projects .card1 .box1 {
+  transform: scale(1.20);
+}
+.projects .card1:hover .box1 {
+  transform: scale(1.25);
+}
+.projects .card1 .text1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px 0 5px 0;
+}
+
+
 .projects .p_content{
   display:inline-flex;
 
@@ -241,7 +272,6 @@ section .title {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .projects .p_content .card:hover {
   background: #f59d068f;
   width: max-content;
